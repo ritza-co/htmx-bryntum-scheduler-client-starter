@@ -5,9 +5,16 @@
     <link rel="icon" type="image/png" href="/bryntum.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <script src="https://unpkg.com/htmx.org@1.9.9" integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX" crossorigin="anonymous"></script>
     <title>Bryntum Scheduler with htmx</title>
   </head>
   <body>
+    <dialog>
+      <button class="dialog-close-button" aria-label="Close">
+        <span aria-hidden="true" class="close"></span>
+      </button>
+      <div class="dialog-info"></div>
+    </dialog>
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
   </body>
